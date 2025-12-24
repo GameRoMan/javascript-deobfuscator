@@ -19,4 +19,10 @@ describe("deobfuscate", () => {
     const result = deobfuscate(input);
     expect(result).toMatchSnapshot();
   });
+
+  test("xor-string-encoding", () => {
+    const input = loadFixture("xor-string-encoding");
+    const result = deobfuscate(input);
+    expect(result).toMatchSnapshot();
+  });
 });
