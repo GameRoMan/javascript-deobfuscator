@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { deobfuscate } from "./index";
-import fs from "fs";
+import * as fs from "node:fs";
 import { program } from "commander";
 
 program

@@ -7,7 +7,7 @@ import ExpressionSimplifier from "./modifications/expressions/expressionSimplifi
 import ArrayUnpacker from "./modifications/arrays/arrayUnpacker";
 import PropertySimplifier from "./modifications/properties/propertySimplifier";
 import CleanupHelper from "./helpers/cleanupHelper";
-import Config from "./config";
+import type Config from "./config";
 import VariableRenamer from "./modifications/renaming/variableRenamer";
 import DeadBranchRemover from "./modifications/branches/deadBranchRemover";
 import StringDecoder from "./modifications/expressions/stringDecoder";
