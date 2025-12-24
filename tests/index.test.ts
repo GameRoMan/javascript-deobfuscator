@@ -31,4 +31,10 @@ describe("deobfuscate", () => {
     const result = deobfuscate(input);
     expect(result).toMatchSnapshot();
   });
+
+  test("jsfuck-alert", () => {
+    const input = loadFixture("jsfuck-alert");
+    const result = deobfuscate(input);
+    expect(result).toMatchSnapshot();
+  });
 });
