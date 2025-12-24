@@ -14,14 +14,13 @@
   "dependencies": {
     "ben-sb-shift-codegen": "^8.0.0",
     "commander": "^9.4.0",
-    "estraverse": "^4.2.0",
     "shift-ast": "^6.1.0",
     "shift-parser": "^8.0.0",
     "shift-validator": "^5.0.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@types/estraverse": "^5.1.1",
+    "@types/estree": "1.0.6",
     "@types/node": "^14.14.22",
     "@types/uuid": "^8.3.3",
     "oxfmt": "^0.20.0",

@@ -3,7 +3,7 @@
  * All credit goes to jsoverson
  */
 
-import estraverse from "estraverse";
+import estraverse from "./estraverse";
 import Spec from "./shiftSpec";
 
 const environment = estraverse.cloneEnvironment();
