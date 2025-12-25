@@ -1,4 +1,4 @@
-var Syntax, VisitorKeys, BREAK, SKIP, REMOVE;
+var Syntax, VisitorKeys;
 
 Syntax = {
   AssignmentExpression: "AssignmentExpression",
@@ -151,9 +151,9 @@ VisitorKeys = {
 };
 
 // unique id
-BREAK = {};
-SKIP = {};
-REMOVE = {};
+const BREAK = Symbol.for("estraverse.BREAK");
+const SKIP = Symbol.for("estraverse.SKIP");
+const REMOVE = Symbol.for("estraverse.REMOVE");
 
 class Reference {
   constructor(parent, key) {
